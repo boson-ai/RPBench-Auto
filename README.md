@@ -1,5 +1,5 @@
 # RPBench-Auto
-[Leaderboard](https://boson.ai/rpbench/)/[Blog](https://boson.ai/rpbench-blog/)
+[Leaderboard](https://boson.ai/rpbench/) | [Blog](https://boson.ai/rpbench-blog/)
 
 An automated pipeline for evaluating LLMs for role-playing.
 
