@@ -1,0 +1,107 @@
+# name: str
+#     model_name: str
+#     endpoints: default to null
+#         - api_base: str
+#           api_key: str
+#           api_version: str optional (only for azure)
+
+gpt-3.5-turbo-0125:
+    model_name: gpt-3.5-turbo-0125
+    beautiful_name: GPT-3.5 Turbo (0125)
+    endpoints: null
+    api_type: openai
+
+gpt-4-0314:
+    model_name: gpt-4-0314
+    beautiful_name: GPT-4 (0314)
+    endpoints: null
+    api_type: openai
+
+gpt-4-1106-preview:
+    model_name: gpt-4-1106-preview
+    beautiful_name: GPT-4-Turbo (1106 Preview)
+    endpoints: null
+    api_type: openai
+
+gpt-4o:
+    model_name: gpt-4o-2024-05-13
+    beautiful_name: GPT-4o (2024-05-13)
+    endpoints: null
+    api_type: openai
+
+claude-3-opus:
+    model_name: claude-3-opus-20240229
+    beautiful_name: Claude-3 Opus (2024-02-29)
+    api_type: anthropic
+
+claude-3-5-sonnet:
+    model_name: claude-3-5-sonnet-20240620
+    beautiful_name: Claude-3.5 Sonnet (2024-06-20)
+    api_type: anthropic
+
+higgs-llama-3-70b-240629-v1:
+    model_name: higgs-llama-3-70b-240629-v1
+    beautiful_name: Higgs-Llama-3 70B (240629 v1)
+    api_type: openai
+
+higgs-llama-3-70b-240601:
+    model_name: higgs-llama-3-70b-240601
+    beautiful_name: Higgs-Llama-3 70B (240601)
+    endpoints:
+        api_base: https://api.boson.ai/v1
+        api_key:
+    api_type: openai
+
+higgs-llama-3-70b-240629-v2:
+    model_name: higgs-llama-3-70b-240629-v2
+    beautiful_name: Higgs-Llama-3 70B (240629 v2)
+    endpoints:
+        api_base: https://api.boson.ai/v1
+        api_key:
+    api_type: openai
+
+deepseek-v2:
+    model_name: deepseek-chat
+    beautiful_name: DeepSeek-V2
+    endpoints:
+        api_base: https://api.deepseek.com/v1
+        api_key:
+    api_type: openai
+
+minimax-abab-6.5s:
+    model_name: abab6.5s-chat
+    beautiful_name: MiniMax abab6.5s
+    endpoints:
+        api_base:
+        api_key:
+    api_type: openai
+
+mistral-large-2402:
+    model_name: mistral-large-2402
+    beautiful_name: Mistral Large (2402)
+    endpoints:
+        api_base: https://api.mistral.ai/v1/
+        api_key:
+    api_type: openai
+
+gemini-1.5-pro:
+    model_name: gemini-1.5-pro
+    beautiful_name: Gemini 1.5 Pro
+    endpoints:
+        api_base:
+        api_key:
+    api_type: openai
+
+yi-large:
+    model_name: yi-large
+    beautiful_name: Yi Large (240513)
+    endpoints:
+        api_base: https://api.lingyiwanwu.com/v1/
+        api_key:
+    api_type: openai
+
+qwen2-72b-instruct:
+    beautiful_name: Qwen2 72B Instruct
+
+llama-3-70b-instruct:
+    beautiful_name: Llama-3 70B Instruct

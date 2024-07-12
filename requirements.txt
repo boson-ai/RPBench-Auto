@@ -1,0 +1,13 @@
+jsonlines
+tqdm
+openai
+anthropic
+json_repair==0.11.1
+pyyaml
+requests
+whole-history-rating
+pandas
+numpy
+matplotlib
+scikit-learn
+tiktoken

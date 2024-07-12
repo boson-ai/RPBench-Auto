@@ -1,0 +1,4 @@
+gpt-4-turbo-2024-04-09:
+    model_name: gpt-4-turbo-2024-04-09
+    endpoints: null
+    api_type: openai
