@@ -28,7 +28,7 @@ python generate_leaderboard.py
 ```
 
 ## How to contribute
-After running all commands above, you can add your model to the leaderboard by creating a pull request with the updated leaderboard, plus the .jsonl files in `/results/character` and `/results/scene`. The leaderboard will be updated automatically.
+After running all commands above, you can add your model to the leaderboard by creating a pull request with the updated leaderboard files, `leaderboard.csv` and `leaderboard_for_display.csv`, plus the .jsonl files in `/results/character` and `/results/scene`. The leaderboard will be updated automatically when the PR is merged.
 
 ## Acknowledgements
 This benchmark is heavily inspired by [ArenaHard](https://github.com/lm-sys/arena-hard-auto) and [AlpacaEval](https://tatsu-lab.github.io/alpaca_eval/). Some code implementations are borrowed from these repositories.
