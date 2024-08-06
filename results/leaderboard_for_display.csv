@@ -1,5 +1,5 @@
 Rank,Model,Character,Scene,Avg. Win Rate
-1,Higgs-Llama-3 70B V2 (2024-06-29),68.25%,73.68%,70.97%
+1,Higgs-Llama-3 70B V2,68.25%,73.68%,70.97%
 2,Claude-3.5 Sonnet (2024-06-20),56.68%,63.17%,59.92%
 3,Claude-3 Opus (2024-02-29),57.00%,61.68%,59.34%
 4,Llama-3.1 405B Instruct (FP8),54.00%,62.81%,58.41%
