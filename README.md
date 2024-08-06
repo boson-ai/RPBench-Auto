@@ -3,6 +3,8 @@
 
 An automated pipeline for evaluating LLMs for role-playing.
 
+![RPBench Auto](./figures/rpbench_auto_example.png)
+
 ## Installation
 ```bash
 pip install -r requirements.txt
