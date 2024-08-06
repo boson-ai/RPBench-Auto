@@ -39,11 +39,6 @@ claude-3-5-sonnet:
     beautiful_name: Claude-3.5 Sonnet (2024-06-20)
     api_type: anthropic
 
-higgs-llama-3-70b-240629-v1:
-    model_name: higgs-llama-3-70b-240629-v1
-    beautiful_name: Higgs-Llama-3 70B (240629 v1)
-    api_type: openai
-
 higgs-llama-3-70b-240601:
     model_name: higgs-llama-3-70b-240601
     beautiful_name: Higgs-Llama-3 70B (240601)
@@ -105,3 +100,16 @@ qwen2-72b-instruct:
 
 llama-3-70b-instruct:
     beautiful_name: Llama-3 70B Instruct
+
+llama-3-1-70b-instruct:
+    beautiful_name: Llama-3.1 70B Instruct
+
+llama-3-1-8b-instruct:
+    beautiful_name: Llama-3.1 8B Instruct
+
+llama-3-1-405b-instruct-fp8:
+    beautiful_name: Llama-3.1 405B Instruct (FP8)
+
+character-AI:
+    beautiful_name: Character.AI 
+    api_type: character_ai

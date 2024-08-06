@@ -42,7 +42,21 @@ def extract_and_parse_json(text):
         json_str = match.group(1)
     else:
         json_str = text
-    parsed_obj = json_repair.loads(json_str)
+
+    try:
+        parsed_obj = json_repair.loads(json_str)
+    except Exception:
+        try:
+            # There are something wrong in the JSON string, we will try to extract the "winner" field from the string and throw away other keys.
+            winner_start = json_str.find("winner\":")
+            if winner_start == -1:
+                raise Exception(f"Cannot find the 'winner' field in the JSON string.\n\n{json_str}")
+            winner_end = json_str.find(",", winner_start)
+            new_json_str = "{\"" + json_str[winner_start:winner_end] + "}"
+            parsed_obj = json_repair.loads(new_json_str)
+        except Exception:
+            raise Exception(f"Cannot parse JSON string.\n\nnew version={new_json_str},\n\nprevious version={json_str}")
+
     return parsed_obj
 
 
