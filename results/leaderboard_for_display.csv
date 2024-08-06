@@ -8,7 +8,7 @@ Rank,Model,Character,Scene,Avg. Win Rate
 7,GPT-4o (2024-05-13),50.00%,50.00%,50.00%
 8,MiniMax abab6.5s,51.50%,46.77%,49.14%
 9,Yi Large (2024-05-13),55.70%,38.51%,47.10%
-10,Higgs-Llama-3 70B (2024-06-01),47.72%,44.20%,45.96%
+10,Higgs-Llama-3 70B V1,47.72%,44.20%,45.96%
 11,Qwen2 72B Instruct,48.99%,41.20%,45.10%
 12,Llama-3 70B Instruct,45.75%,43.71%,44.73%
 13,Llama-3.1 8B Instruct,40.00%,43.61%,41.81%

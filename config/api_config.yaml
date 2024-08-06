@@ -41,7 +41,7 @@ claude-3-5-sonnet:
 
 higgs-llama-3-70b-240601:
     model_name: higgs-llama-3-70b-240601
-    beautiful_name: Higgs-Llama-3 70B (2024-06-01)
+    beautiful_name: Higgs-Llama-3 70B V1
     endpoints:
         api_base: https://api.boson.ai/v1
         api_key:
