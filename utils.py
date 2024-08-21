@@ -45,6 +45,7 @@ def extract_and_parse_json(text):
 
     try:
         parsed_obj = json_repair.loads(json_str)
+        assert "winner" in parsed_obj
     except Exception:
         try:
             # There are something wrong in the JSON string, we will try to extract the "winner" field from the string and throw away other keys.
