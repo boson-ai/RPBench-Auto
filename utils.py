@@ -35,13 +35,17 @@ OPENAI_MODEL_LIST = (
 )
 
 
-def extract_and_parse_json(text):
+def extract_and_parse_json(text, is_judger=True):
     pattern = r"```json\s+(.+?)\s+```"
     match = re.search(pattern, text, re.DOTALL)
     if match:
         json_str = match.group(1)
     else:
         json_str = text
+
+    if not is_judger:
+        # skip winner field check for non-judger model
+        return json_repair.loads(text)
 
     try:
         parsed_obj = json_repair.loads(json_str)

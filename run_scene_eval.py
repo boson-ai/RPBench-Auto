@@ -134,14 +134,14 @@ def eval_models_pairwise(model_1, model_2):
             )
 
             try:
-                parsed_model_a_response = extract_and_parse_json(model_a_response)
+                parsed_model_a_response = extract_and_parse_json(model_a_response, is_judger=False)
                 model_a_end = parsed_model_a_response["is_chat_finished"]
             except:
                 model_a_end = False
                 print(f"Warning: Format error in response of {model_a}")
                 print(model_a_response)
             try:
-                parsed_model_b_response = extract_and_parse_json(model_b_response)
+                parsed_model_b_response = extract_and_parse_json(model_b_response, is_judger=False)
                 model_b_end = parsed_model_b_response["is_chat_finished"]
             except:
                 model_b_end = False
